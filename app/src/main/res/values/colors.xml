@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#0F1225</color>
+    <color name="white">#FFFFFF</color>
+    <color name="red">#D33415</color>
+    <color name="grayBg">#EFEFEF</color>
+    <color name="blue"> #407BFF</color>
+    <color name="Darkblue"> #407CE2</color>
+    <color name="gray">#221F1F</color>
+    <color name="LightText">#75788D</color>
+    <color name="LightText2">#ACAEBE</color>
+    <color name="LightGray">#F8F8F8</color>
+    <color name="primaryDark">#2C3E50</color>
+    <color name="primaryColor">#3498DB</color>
+    <color name="backgroundColor">#FFFFFF</color>
+    <color name="cardBackground">#F8F9FA</color>
+    <color name="buttonColor">#E74C3C</color>
+    <color name="buttonTextColor">#FFFFFF</color>
+    <color name="shadowColor">#BB000000</color>
+    <color name="accentColor">#F39C12</color>
+
+</resources>

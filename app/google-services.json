@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "296265116182",
+    "project_id": "usermoduleupdated",
+    "storage_bucket": "usermoduleupdated.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:296265116182:android:fd65488fce8786bbba6337",
+        "android_client_info": {
+          "package_name": "com.hasnain.usermoduleupdated"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1HGPeJst1ouFOu_hm1vkLrRPz7j1sIuI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

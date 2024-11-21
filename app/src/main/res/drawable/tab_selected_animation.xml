@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/selected"
+        android:drawable="@drawable/tab_selected_background" />
+
+    <transition
+        android:drawable="@drawable/tab_selected_background"
+        android:toId="@+id/selected"
+        android:fromId="@android:id/empty">
+        <scale
+            android:fromXScale="0.8"
+            android:toXScale="1.2"
+            android:fromYScale="0.8"
+            android:toYScale="1.2"
+            android:pivotX="50%"
+            android:pivotY="50%"
+            android:duration="300" />
+        <alpha
+            android:fromAlpha="0.5"
+            android:toAlpha="1.0"
+            android:duration="300" />
+    </transition>
+</animated-selector>

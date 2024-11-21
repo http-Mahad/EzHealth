@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="22dp"
+        android:elevation="10dp"
+
+        android:background="@color/white">
+
+        <!-- Back Button -->
+        <ImageView
+            android:id="@+id/img_back"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_arrowleft"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="16dp"
+            android:contentDescription="Back" />
+
+        <!-- Title -->
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Notifications"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="center" />
+
+        <!-- Menu (Three Dots) -->
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_menu"
+            android:contentDescription="Menu"
+            android:layout_gravity="center_vertical" />
+    </LinearLayout>
+
+
+</RelativeLayout>

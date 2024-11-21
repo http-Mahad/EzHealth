@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">UserModuleUpdated</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="create_account">Create Account</string>
+    <string name="start_learning_with_create_your_account">Start learning with create your account</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="username">Username</string>
+    <string name="enter_your_email_or_phone_number">Enter your email or phone number</string>
+    <string name="password">Password</string>
+    <string name="email_or_phone_number">Email or Phone number</string>
+    <string name="i_don_t_have_an_account">Don’t have an account?</string>
+    <string name="signin">Sign In</string>
+    <string name="login_account">Login Account</string>
+    <string name="please_login_with_registered_account">Please login with registered account</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="sign_up">Sign up</string>
+    <string name="forget_password">Forget Password</string>
+    <string name="send_code">Send Code</string>
+    <string name="create_new_password">Create New Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="change_password">Change Password</string>
+    <string name="verification">Verification</string>
+    <string name="verification_code">Verification Code</string>
+    <string name="verification_mail">Verification Mail</string>
+    <string name="we_have_to_sent_the_code_verification_to">We have to sent the code verification to</string>
+    <string name="magdelana83_mail_com">magdelana83@mail.com</string>
+    <string name="_6">6</string>
+    <string name="submit">Submit</string>
+    <string name="didn_t_receive_the_code">Didn\'t receive the code ?</string>
+    <string name="resend">Resend</string>
+    <string name="error_profile">Error</string>
+    <string name="register_success">Register Success</string>
+    <string name="congratulation_your_account_already_created_please_login_to_get_amazing_experience">Congratulation! your account already created. Please login to get amazing experience.</string>
+    <string name="go_to_homepage">Go to Homepage</string>
+    <string name="title_activity_fragment">FragmentActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="hi_john">Hi, John</string>
+    <string name="may_you_always_be_healthy">May you always be healthy</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="popular_articles">Popular Articles</string>
+    <string name="see_all">See All</string>
+    <string name="populart">#1 populart</string>
+    <string name="mental_health_and_wellbeing_during_challenging">Mental Health and Well-Being During Challenging…</string>
+    <string name="_5h_ago">5h ago</string>
+    <string name="num">50</string>
+    <string name="healthyup">Healthyup</string>
+    <string name="find_a_doctor_easily_from_your_phone">Find a Doctor easily from your phone</string>
+    <string name="make_an_appointment">Make an Appointment</string>
+    <string name="no_user_authenticated">Complete Profile</string>
+</resources>
+
+
+
+
+
+
+
+

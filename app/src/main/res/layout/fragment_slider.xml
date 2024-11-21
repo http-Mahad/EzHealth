@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingHorizontal="20dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <ImageView
+        android:id="@+id/image_slider"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:src="@drawable/dr_image"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/slide_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/healthyup"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="15dp"
+        android:textStyle="bold"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/slide_subtext"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/slide_text"
+        android:text="@string/find_a_doctor_easily_from_your_phone"
+        android:textColor="@color/white"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="15dp"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_slider"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@id/slide_subtext"
+        android:text="@string/make_an_appointment"
+        android:textColor="@color/black"
+        android:textSize="10sp"
+        android:textFontWeight="600"
+        android:backgroundTint="#ffffff"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        tools:targetApi="p"
+        />
+
+</RelativeLayout>

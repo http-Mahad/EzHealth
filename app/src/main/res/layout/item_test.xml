@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="12dp"
+    android:elevation="10dp"
+    android:radius="12dp"
+    >
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="18dp"
+        android:background="@drawable/rounded_background"
+        android:clipToPadding="false">
+
+        <!-- Test Name with Icon -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/rounded_background"
+            android:gravity="start|center_vertical">
+
+            <ImageView
+                android:id="@+id/iconTest"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_test"
+                android:layout_alignParentStart="true"
+                android:layout_marginEnd="12dp"
+                android:contentDescription="Test Icon" />
+
+
+            <TextView
+                android:id="@+id/tvTestName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Test Name"
+                android:textSize="20sp"
+                android:textColor="@color/primaryDark"
+                android:textStyle="bold"
+                android:layout_toEndOf="@id/iconTest"
+                android:ellipsize="end"
+                android:maxLines="1"/>
+
+        </RelativeLayout>
+
+        <!-- Test Price -->
+        <TextView
+            android:id="@+id/tvTestPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Price: $100"
+            android:textSize="16sp"
+            android:textColor="@color/primaryColor"
+            android:layout_marginBottom="8dp"
+            android:gravity="start"/>
+
+        <!-- Test Requirements -->
+        <TextView
+            android:id="@+id/tvTestRequirements"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Requirements: Test procedure"
+            android:textSize="14sp"
+            android:textColor="@color/LightText"
+            android:gravity="start"
+            android:layout_marginBottom="12dp"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

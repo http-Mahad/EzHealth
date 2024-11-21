@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:elevation="10dp"
+    android:radius="20dp"
+    app:cardCornerRadius="10dp"
+    android:backgroundTint="@color/white"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <!-- Header Section with Icon and Test Name -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_health_test"
+                android:layout_marginEnd="8dp"
+                android:contentDescription="Test Icon" />
+
+            <TextView
+                android:id="@+id/tvTestAppointment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Test Name"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                />
+        </LinearLayout>
+
+        <!-- Date and Time Row -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_calendar"
+                android:layout_marginEnd="8dp"
+                android:contentDescription="Date Icon" />
+
+            <TextView
+                android:id="@+id/tvDateAppointment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Appointment Date"
+                android:textSize="14sp"
+                android:textColor="@color/LightText"
+                />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_clock"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="8dp"
+                android:contentDescription="Time Icon" />
+
+            <TextView
+                android:id="@+id/tvTimeAppointment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Appointment Time"
+                android:textSize="14sp"
+                android:textColor="@color/LightText" />
+        </LinearLayout>
+
+        <!-- Address Row -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_location"
+                android:layout_marginEnd="8dp"
+                android:contentDescription="Location Icon" />
+
+            <TextView
+                android:id="@+id/tvAddressAppointment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address"
+                android:textSize="14sp"
+                android:textColor="@color/LightText" />
+        </LinearLayout>
+
+        <!-- Status Row -->
+        <LinearLayout
+            android:id="@+id/statusContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="16dp">
+
+            <!-- Status 1: Submitted -->
+            <LinearLayout
+                android:id="@+id/statusSubmittedContainer"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginHorizontal="5dp"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <View
+                    android:id="@+id/statusSubmittedLine"
+                    android:layout_width="match_parent"
+                    android:layout_height="4dp"
+                    android:background="@color/blue"
+                    android:layout_marginBottom="4dp"
+                    android:layout_gravity="center_horizontal"/>
+
+                <TextView
+                    android:id="@+id/statusSubmitted"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Accepted"
+                    android:textColor="@color/blue"
+                    android:textSize="12sp"
+                    android:layout_gravity="center_horizontal"/>
+            </LinearLayout>
+
+            <!-- Status 2: Shortlisted -->
+            <LinearLayout
+                android:id="@+id/statusShortlistedContainer"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginHorizontal="5dp"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <View
+                    android:id="@+id/statusShortlistedLine"
+                    android:layout_width="match_parent"
+                    android:layout_height="4dp"
+                    android:background="@color/blue"
+                    android:layout_marginBottom="4dp"
+                    android:layout_gravity="center_horizontal"/>
+
+                <TextView
+                    android:id="@+id/statusShortlisted"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rejected"
+                    android:textColor="@color/blue"
+                    android:textSize="12sp"
+                    android:layout_gravity="center_horizontal"/>
+            </LinearLayout>
+
+
+
+            <!-- Status 4: Offer -->
+            <LinearLayout
+                android:id="@+id/statusOfferContainer"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_marginHorizontal="5dp"
+                android:gravity="center">
+
+                <View
+                    android:id="@+id/statusOfferLine"
+                    android:layout_width="match_parent"
+                    android:layout_height="4dp"
+                    android:background="@color/blue"
+                    android:layout_marginBottom="4dp"
+                    android:layout_gravity="center_horizontal"/>
+
+                <TextView
+                    android:id="@+id/statusOffer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Completed"
+                    android:textColor="@color/LightText2"
+                    android:textSize="12sp"
+                    android:layout_gravity="center_horizontal"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,20 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- Clipboard outline -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#000000"
+        android:strokeWidth="1"
+        android:pathData="M7,3h10c0.55,0 1,0.45 1,1v16c0,0.55 -0.45,1 -1,1H7c-0.55,0 -1,-0.45 -1,-1V4c0,-0.55 0.45,-1 1,-1zM9,2v2h6V2H9z"/>
+
+    <!-- Pen outline -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#000000"
+        android:strokeWidth="1"
+        android:pathData="M16.5,14.5l-1.06,-1.06c-0.2,-0.2 -0.51,-0.2 -0.71,0l-4.47,4.47c-0.09,0.09 -0.15,0.21 -0.18,0.34l-0.5,2c-0.05,0.2 0.13,0.38 0.33,0.33l2,-0.5c0.13,-0.03 0.25,-0.09 0.34,-0.18l4.47,-4.47c0.2,-0.2 0.2,-0.51 0,-0.71zM14.06,15.94l-0.94,-0.94 0.5,-0.5 0.94,0.94 -0.5,0.5z"/>
+</vector>
